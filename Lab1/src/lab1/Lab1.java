@@ -18,7 +18,22 @@ public class Lab1 {
         Square square = new Square("square");
         square.setDimensions(2.0, 2.0);
         square.printDimensions();
-        System.out.println(square.getArea());
+        System.out.println("Square Area: " + square.getArea());
+        
+        Circle circle = new Circle("circle");
+        circle.setDimensions(2.0);
+        circle.printDimensions();
+        System.out.println("Circle Area: " + circle.getArea());
+        
+        Triangle triangle = new Triangle("triangle");
+        triangle.setDimensions(2.0, 2.0, 3.0);
+        triangle.printDimensions();
+        System.out.println("Triangle Area: " + triangle.getArea());
+        
+        Equilateral_Triangle equilateral = new Equilateral_Triangle("equilateral");
+        equilateral.setDimensions(3.0);
+        equilateral.printDimensions();
+        System.out.println("Equilateral Triangle Area: " + equilateral.getArea());
     }
     
 }
